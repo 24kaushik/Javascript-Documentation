@@ -51,6 +51,10 @@ body::-webkit-scrollbar-track {
 
 }
 
+#navbtn{
+    display: none;
+}
+
 #page1_nav>ul>li {
     padding-left: 1.3em;
 }
@@ -302,7 +306,7 @@ body::-webkit-scrollbar-track {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        z-index: 999;
+        z-index: 998;
         transition: all .3s;
 
     }
@@ -340,5 +344,8 @@ body::-webkit-scrollbar-track {
     }
     #nav-check:checked~#nav-ul {
         left: 0;
+    }
+    #navbtn{
+        display:inline;
     }
 }
